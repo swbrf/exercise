@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-08T10:51:03.130Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="qoVvUFzaGnp2LdMUOjWp" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-08T10:51:17.634Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="L72aXVhOFjWAPKvRxHZS" version="24.3.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1050" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -95,6 +95,9 @@
         <mxCell id="Vb5uBY2Feg9RNN3zf18O-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vb5uBY2Feg9RNN3zf18O-14" target="Vb5uBY2Feg9RNN3zf18O-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Vb5uBY2Feg9RNN3zf18O-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vb5uBY2Feg9RNN3zf18O-14" target="Vb5uBY2Feg9RNN3zf18O-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Vb5uBY2Feg9RNN3zf18O-14" value="执行转上线" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="205" y="1730" width="120" height="40" as="geometry" />
         </mxCell>
@@ -103,9 +106,6 @@
         </mxCell>
         <mxCell id="Vb5uBY2Feg9RNN3zf18O-16" value="更新任务最后执行时间，记录操作日志" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="205" y="1800" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Vb5uBY2Feg9RNN3zf18O-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vb5uBY2Feg9RNN3zf18O-18" target="Vb5uBY2Feg9RNN3zf18O-74">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Vb5uBY2Feg9RNN3zf18O-18" value="释放锁" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="205" y="1890" width="120" height="40" as="geometry" />
@@ -201,7 +201,7 @@
           <mxGeometry x="470" y="1370" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Vb5uBY2Feg9RNN3zf18O-74" value="调用WHI接口" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="470" y="1890" width="120" height="40" as="geometry" />
+          <mxGeometry x="480" y="1730" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
